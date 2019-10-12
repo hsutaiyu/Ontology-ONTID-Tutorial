@@ -2,5 +2,6 @@
 
 * [Getting Started](README.md)
 * [Introduction](introduction.md)
-* [Development Process](development-process.md)
+* [Environment Setup](environment-setup.md)
+* [Operation Guide](development-process.md)
 
