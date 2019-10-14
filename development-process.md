@@ -10,5 +10,13 @@ The core idea of the **decentralized** **remodeling** is allowing for the centra
 
 ### Registration
 
-1. The user uses ONT Auth to re
+1. The user registers a self-sovereign ONT ID using ONT Auth.
+
+![](.gitbook/assets/register1.jpg)
+
+![](.gitbook/assets/register2.jpg)
+
+2. Traditional web apps prepare the account information and register in the following manner.
+
+
 
