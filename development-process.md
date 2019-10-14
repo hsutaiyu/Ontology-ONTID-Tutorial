@@ -17,6 +17,6 @@ The core idea of the **decentralized** **remodeling** is allowing for the centra
 ![](.gitbook/assets/register2.jpg)
 
 2. Traditional web apps prepare the account information and register in the following manner.
-
-
-
+  i. Fill in the relevant information
+  ii. Check for redundancy with older existing accounts
+  iii. Lock the new account and cache the registration information
