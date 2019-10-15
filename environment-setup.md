@@ -16,11 +16,15 @@ Docker can be downloaded by following the link below. It is necessary to sign up
 
 This signing server developed by Ontology serves to set up a decentralized identity application server that can be used to deploy individual web apps.
 
-Once docker is installed and running, run the following command to mount the image and the configuration file _application.properties_
+Once docker is installed and running, run the following command to mount the image.
 
 ```bash
- $docker run -p 8099:8099 -v /host_mnt/d/docker/signing-server/config/:/config -v /host_mnt/d/docker/signing-server/logs/:/logs --name signing signing-server_signing-server
+docker run -p 8099:8099 -v /host_mnt/d/docker/signing-server/config/:/config -v /host_mnt/d/docker/signing-server/logs/:/logs --name signing signing-server_signing-server
 ```
+
+{% hint style="warning" %}
+ The _application.properties_ configuration file also needs to be mounted.
+{% endhint %}
 
 ### ONT Auth
 
